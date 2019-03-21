@@ -1,0 +1,46 @@
+{
+    "Players": [
+        {
+            "name": "Player 01",
+            "level": 1,
+            "list-pokemons": [
+                {
+                    "pokemon-id": "#001",
+                    "character-stats": {
+                        "hp": 100,
+                        "mana": 100,
+                        "level": 1,
+                        "atk": 10,
+                        "def": 5,
+                        "stats": 0
+                    }
+                }
+            ],
+            "location": {
+                "x": 1,
+                "y": 2,
+                "z": 0
+            }
+        }
+    ],
+    "Pokemons": [
+        {
+            "info": {
+                "pokemon-id": "#001",
+                "name": "Bulbasaur",
+                "evolution-level": 1,
+                "Attribute": "Legendary",
+                "Generation": "I",
+                "catch-rate": "45"
+            },
+            "type": [
+                {
+                    "name-type": "Grass"
+                },
+                {
+                    "name-type": "Poison"
+                }
+            ]
+        }
+    ]
+}
